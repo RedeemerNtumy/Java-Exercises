@@ -2,7 +2,7 @@ import java.util.InputMismatchException;
 import java.util.NoSuchElementException;
 import java.util.Scanner;
 
-public class MinMaxMatrix {
+public class Main {
     public static void main(String[] args) {
         int[][] matrix = askForMatrix("Matrix A: ");
         if (matrix != null) {
